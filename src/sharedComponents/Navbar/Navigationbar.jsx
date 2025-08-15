@@ -11,7 +11,7 @@ import { Link, NavLink } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 import Swal from "sweetalert2";
 import Logo from "../../assets/fitforge.png";
-import DarkModeToggle from "../DarkmodeToggle/DarkmodeToggle";
+import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 const Navigationbar = () => {
   const [openNav, setOpenNav] = useState(false);
   const { user, logOut } = useAuth();
